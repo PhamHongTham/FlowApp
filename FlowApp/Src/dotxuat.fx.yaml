@@ -3,74 +3,92 @@ dotxuat As screen:
     Sticky_Top_Menu_1 As Sticky_Top_Menu:
         Selected: ="dotxuat"
         X: =Parent.Width/2 - Self.Width/2
-        Y: =20
-
-    Container1 As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =208
-        LayoutDirection: =LayoutDirection.Manual
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =266
-        X: =74
-        Y: =132
-        ZIndex: =2
-
-    Container1_1 As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =208
-        LayoutDirection: =LayoutDirection.Manual
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =266
-        X: =375
-        Y: =132
-        ZIndex: =3
 
     Container2 As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =609
-        LayoutDirection: =LayoutDirection.Manual
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =595
-        X: =702
-        Y: =132
-        ZIndex: =10
+        BorderThickness: =2
+        Height: =220
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =277
+        X: =44
+        Y: =120
+        ZIndex: =2
 
-        Label1 As label:
+        Label8 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Text: ="Tổng nồng độ TS"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
+
+    Container2_1 As groupContainer.manualLayoutContainer:
+        BorderThickness: =2
+        Height: =220
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =277
+        X: =376
+        Y: =120
+        ZIndex: =3
+
+        Label8_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Text: ="Tải trọng hữu cơ"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
+
+    Container2_2 As groupContainer.manualLayoutContainer:
+        Height: =601
+        Width: =582
+        X: =739
+        Y: =120
+        ZIndex: =4
+
+        Label7 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
-            Height: =52
+            Height: =60
             Size: =20
-            Text: ="Văn bản"
+            Text: ="20/11 Xử lý thông tin kế hoạch"
             Width: =Parent.Width
             ZIndex: =1
 
-        "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderThickness: =2
             DelayItemLoading: =true
-            Height: =546
+            Height: =538
             Items: =CustomGallerySample
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
             TemplatePadding: =0
-            TemplateSize: =116
-            Width: =595
-            Y: =62
-            ZIndex: =1
+            TemplateSize: =104
+            Width: =582
+            Y: =63
+            ZIndex: =2
 
-            Title2 As label:
+            Image3 As image:
+                Height: =72
+                OnSelect: =Select(Parent)
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                Width: =72
+                X: =16
+                Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            Title4 As label:
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                 Height: =Self.Size * 1.8
                 OnSelect: =Select(Parent)
@@ -80,27 +98,12 @@ dotxuat As screen:
                 PaddingTop: =0
                 Text: =ThisItem.SampleHeading
                 VerticalAlign: =VerticalAlign.Top
-                Width: =Parent.TemplateWidth - 86
-                X: =16
-                Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle2.Size*1.8 + 2 + Body1.Size*1.8)) / 2
-                ZIndex: =1
-
-            Subtitle2 As label:
-                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                Height: =Self.Size * 1.8
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.SampleText
-                VerticalAlign: =VerticalAlign.Top
-                Width: =Title2.Width
-                X: =Title2.X
-                Y: =Title2.Y + Title2.Height
+                Width: =Parent.TemplateWidth - 173
+                X: =103
+                Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle3.Size * 1.8)) / 2
                 ZIndex: =2
 
-            Body1 As label:
+            Subtitle3 As label:
                 FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                 Height: =Self.Size * 1.8
                 OnSelect: =Select(Parent)
@@ -110,12 +113,12 @@ dotxuat As screen:
                 PaddingTop: =0
                 Text: =ThisItem.SampleText
                 VerticalAlign: =VerticalAlign.Top
-                Width: =Title2.Width
-                X: =Title2.X
-                Y: =Subtitle2.Y + Subtitle2.Height
+                Width: =Title4.Width
+                X: =Title4.X
+                Y: =Title4.Y + Title4.Height
                 ZIndex: =3
 
-            NextArrow2 As icon.ChevronRight:
+            NextArrow4 As icon.ChevronRight:
                 AccessibleLabel: =Self.Tooltip
                 Color: =RGBA(166, 166, 166, 1)
                 Height: =50
@@ -131,15 +134,15 @@ dotxuat As screen:
                 Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
                 ZIndex: =4
 
-            Separator2 As rectangle:
+            Separator4 As rectangle:
                 Height: =8
                 OnSelect: =Select(Parent)
                 Width: =Parent.TemplateWidth
                 Y: =Parent.TemplateHeight - Self.Height
                 ZIndex: =5
 
-            Rectangle2 As rectangle:
-                Height: =Parent.TemplateHeight - Separator2.Height
+            Rectangle4 As rectangle:
+                Height: =Parent.TemplateHeight - Separator4.Height
                 OnSelect: =Select(Parent)
                 Visible: =ThisItem.IsSelected
                 Width: =4
@@ -147,67 +150,67 @@ dotxuat As screen:
 
     Container3 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =268
-        LayoutDirection: =LayoutDirection.Manual
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =567
-        X: =74
-        Y: =383
-        ZIndex: =11
+        Height: =238
+        Width: =604
+        X: =44
+        Y: =379
+        ZIndex: =5
 
-        Dropdown1 As dropdown:
-            Height: =80
+        Dropdown3 As dropdown:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            ChevronBackground: =RGBA(0, 0, 0, 1)
+            Height: =70
             Items: =DropDownSample
-            Width: =567
-            Y: =180
+            SelectionFill: =RGBA(0, 0, 0, 1)
+            Width: =Parent.Width
             ZIndex: =1
 
-        Dropdown1_1 As dropdown:
-            Height: =80
+        Dropdown3_1 As dropdown:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            ChevronBackground: =RGBA(0, 0, 0, 1)
+            Height: =70
             Items: =DropDownSample
-            Width: =567
+            Width: =Parent.Width
+            Y: =83
             ZIndex: =2
 
-        TextInput1 As text:
-            Default: ="Đầu vào văn bản"
-            Height: =80
-            Width: =567
-            Y: =99
+        TextInput2 As text:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Default: =""
+            Height: =70
+            HintText: ="Số lượng"
+            Width: =Parent.Width
+            Y: =168
             ZIndex: =3
 
-    Container4 As groupContainer.manualLayoutContainer:
+    Container3_1 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =72
-        LayoutDirection: =LayoutDirection.Manual
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =567
-        X: =74
-        Y: =669
-        ZIndex: =12
+        Width: =604
+        X: =44
+        Y: =649
+        ZIndex: =6
 
-        Button1 As button:
+        Button5 As button:
+            Fill: =RGBA(128, 128, 128, 1)
             Height: =Parent.Height
-            Text: ="Nút"
-            X: =1
+            Text: ="Phép tính"
+            Width: =165
             ZIndex: =1
 
-        Button1_1 As button:
+        Button5_1 As button:
+            Fill: =RGBA(128, 128, 128, 1)
             Height: =Parent.Height
-            Text: ="Nút"
-            X: =407
+            Text: ="Xác nhận"
+            Width: =165
+            X: =218
             ZIndex: =2
 
-        Button1_2 As button:
+        Button5_2 As button:
+            Fill: =RGBA(128, 128, 128, 1)
             Height: =Parent.Height
-            Text: ="Nút"
-            X: =204
+            Text: ="Đầu ra"
+            Width: =165
+            X: =437
             ZIndex: =3
 

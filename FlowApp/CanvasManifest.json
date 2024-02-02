@@ -100,7 +100,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 5,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -115,6 +115,7 @@
     "FileID": "fe1ddc88-0049-41c5-a069-610864bd0ad9",
     "Id": "fe1ddc88-0049-41c5-a069-610864bd0ad9",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "FlowApp",
     "OriginatingVersion": "1.336",
@@ -135,8 +136,8 @@
   "ScreenOrder": [
     "dotxuat",
     "xacnhan",
-    "quanlicapnuoc",
     "xulinguyenlieu",
+    "quanlicapnuoc",
     "xacnhancuoicung",
     "TOP"
   ]

@@ -3,84 +3,126 @@ xulinguyenlieu As screen:
 
     Sticky_Top_Menu_5 As Sticky_Top_Menu:
         Selected: ="quanlicapnuoc"
-        X: =Parent.Width/2 - Self.Width/2
+        X: |
+            =Parent.Width/2 - Self.Width/2
 
     DataTable4 As dataTable.datatable:
+        BorderColor: =RGBA(0, 0, 0, 1)
         BorderStyle: =BorderStyle.Solid
-        BorderThickness: =1
+        BorderThickness: =2
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =291
+        Height: =284
         Width: =464
         X: =36
-        Y: =115
+        Y: =137
         ZIndex: =1
 
     DataTable4_1 As dataTable.datatable:
+        BorderColor: =RGBA(0, 0, 0, 1)
         BorderStyle: =BorderStyle.Solid
-        BorderThickness: =1
+        BorderThickness: =2
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =291
+        Height: =284
         Width: =465
         X: =36
-        Y: =425
+        Y: =447
         ZIndex: =2
 
     Container10 As groupContainer.manualLayoutContainer:
-        Height: =221
+        BorderThickness: =2
+        Height: =146
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
         Width: =267
         X: =631
-        Y: =115
+        Y: =137
         ZIndex: =3
 
+        Label14 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Tổng nồng độ TS"
+            Width: =Parent.Width
+            ZIndex: =1
+
     Container10_1 As groupContainer.manualLayoutContainer:
-        Height: =221
+        BorderThickness: =2
+        Height: =146
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
         Width: =267
         X: =917
-        Y: =115
+        Y: =137
         ZIndex: =4
 
+        Label14_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Tải trọng hữu cơ"
+            Width: =Parent.Width
+            ZIndex: =1
+
     Button4 As button:
-        Height: =60
-        Text: ="Nút"
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =58
+        Text: ="Phép tính"
         Width: =126
         X: =1203
-        Y: =138
+        Y: =152
         ZIndex: =5
 
     Button4_1 As button:
-        Height: =60
-        Text: ="Nút"
+        Fill: =RGBA(128, 128, 128, 1)
+        Height: =58
+        Text: ="Xác nhận"
         Width: =126
         X: =1203
-        Y: =242
+        Y: =220
         ZIndex: =6
 
     DataTable5 As dataTable.datatable:
+        BorderColor: =RGBA(0, 0, 0, 1)
         BorderStyle: =BorderStyle.Solid
-        BorderThickness: =1
+        BorderThickness: =2
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =376
+        Height: =434
         Width: =698
         X: =631
-        Y: =358
+        Y: =298
         ZIndex: =7
 
     Image10 As image:
+        Height: =97
         Image: =triangle
         ImageRotation: =ImageRotation.Rotate90
         Width: =90
         X: =521
-        Y: =179
+        Y: =201
         ZIndex: =8
 
     Image10_1 As image:
+        Height: =97
         Image: =triangle
         ImageRotation: =ImageRotation.Rotate90
         Width: =90
         X: =520
-        Y: =496
+        Y: =518
         ZIndex: =9
+
+    Label13 As label:
+        Height: =60
+        Text: ="Dự kiến sẽ giao vào ngày hôm sau"
+        Width: =465
+        X: =36
+        Y: =77
+        ZIndex: =10
 

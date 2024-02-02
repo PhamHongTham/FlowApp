@@ -12,12 +12,30 @@ xacnhan As screen:
         Y: =100
         ZIndex: =2
 
+        Label9 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Tổng nồng độ TS"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
+
     Container6_1 As groupContainer.manualLayoutContainer:
         Height: =140
         Width: =249
         X: =294
         Y: =100
         ZIndex: =3
+
+        Label9_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Tải trọng hữu cơ"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
 
     Container6_2 As groupContainer.manualLayoutContainer:
         Height: =140
@@ -26,6 +44,15 @@ xacnhan As screen:
         Y: =100
         ZIndex: =4
 
+        Label9_2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Mực nước VS1"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
+
     Container6_3 As groupContainer.manualLayoutContainer:
         Height: =140
         Width: =249
@@ -33,12 +60,30 @@ xacnhan As screen:
         Y: =100
         ZIndex: =5
 
+        Label9_3 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Nồng độ metan"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
+
     Container6_4 As groupContainer.manualLayoutContainer:
         Height: =140
         Width: =249
         X: =1084
         Y: =100
         ZIndex: =6
+
+        Label9_4 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="XXX"
+            Width: =Parent.Width
+            Y: =20
+            ZIndex: =1
 
     Container7 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.None
@@ -95,6 +140,22 @@ xacnhan As screen:
         Y: =285
         ZIndex: =8
 
+        Label10 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Tổng nồng độ TS"
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Label11 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Text: ="Mục tiêu"
+            X: =49
+            Y: =65
+            ZIndex: =2
+
     Container6_6 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(253, 222, 207, 1)
         Height: =131
@@ -102,6 +163,22 @@ xacnhan As screen:
         X: =295
         Y: =285
         ZIndex: =9
+
+        Label10_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Mục tiêu tải"
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Label11_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Text: ="Hữu cơ"
+            X: =49
+            Y: =63
+            ZIndex: =2
 
     Container6_7 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(253, 222, 207, 1)
@@ -127,9 +204,19 @@ xacnhan As screen:
         Y: =285
         ZIndex: =12
 
+        Label11_2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="XXX"
+            X: =60
+            Y: =44
+            ZIndex: =1
+
     Button2 As button:
+        Fill: =RGBA(128, 128, 128, 1)
         Height: =62
-        Text: ="Nút"
+        Text: ="Xác nhận"
         X: =1173
         Y: =430
         ZIndex: =13
@@ -146,8 +233,9 @@ xacnhan As screen:
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
-            Size: =20
-            Text: ="Văn bản"
+            Height: =45
+            Size: =15
+            Text: ="Kết quả xử lý nguyên liệu"
             Width: =Parent.Width
             ZIndex: =1
 
@@ -163,8 +251,9 @@ xacnhan As screen:
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
-            Size: =20
-            Text: ="Văn bản"
+            Height: =45
+            Size: =15
+            Text: ="Thông tin chứng khoán"
             Width: =Parent.Width
             ZIndex: =1
 
@@ -180,14 +269,16 @@ xacnhan As screen:
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
-            Size: =20
-            Text: ="Văn bản"
+            Height: =45
+            Size: =15
+            Text: ="Bản ghi dòng vào/ra bên ngoài"
             Width: =Parent.Width
             ZIndex: =1
 
     Button2_1 As button:
+        Fill: =RGBA(128, 128, 128, 1)
         Height: =62
-        Text: ="Nút"
+        Text: ="Đầu ra"
         X: =1174
         Y: =693
         ZIndex: =17

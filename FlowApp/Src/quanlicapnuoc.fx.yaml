@@ -1,8 +1,381 @@
 quanlicapnuoc As screen:
-    Fill: =RGBA(253, 222, 207, 1)
+    Fill: =RGBA(0, 0, 0, 0)
 
     Sticky_Top_Menu_3 As Sticky_Top_Menu:
         Selected: ="xulinguyenlieu"
         X: =Parent.Width/2 - Self.Width/2
-        Y: =20
+
+    Container6_13 As groupContainer.manualLayoutContainer:
+        Height: =140
+        Width: =249
+        X: =32
+        Y: =120
+        ZIndex: =2
+
+        Label15 As label:
+            Align: =Align.Center
+            Text: ="F.O.S"
+            Width: =Parent.Width
+            ZIndex: =1
+
+    Container6_14 As groupContainer.manualLayoutContainer:
+        Height: =140
+        Width: =249
+        X: =295
+        Y: =120
+        ZIndex: =3
+
+    Container6_15 As groupContainer.manualLayoutContainer:
+        Height: =140
+        Width: =249
+        X: =559
+        Y: =120
+        ZIndex: =4
+
+    Container6_16 As groupContainer.manualLayoutContainer:
+        Height: =140
+        Width: =249
+        X: =822
+        Y: =120
+        ZIndex: =5
+
+    Container6_17 As groupContainer.manualLayoutContainer:
+        Height: =140
+        Width: =249
+        X: =1085
+        Y: =120
+        ZIndex: =6
+
+    Container6_18 As groupContainer.manualLayoutContainer:
+        Height: =470
+        Width: =420
+        X: =32
+        Y: =277
+        ZIndex: =7
+
+        Label1 As label:
+            Align: =Align.Center
+            Fill: =RGBA(102, 102, 102, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =56
+            Text: ="Văn bản"
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Label3 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =79
+            ZIndex: =2
+
+        Label3_1 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =141
+            ZIndex: =3
+
+        Label3_2 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =204
+            ZIndex: =4
+
+        Label4 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =79
+            ZIndex: =5
+
+        Label4_1 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =141
+            ZIndex: =6
+
+        Label4_2 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =204
+            ZIndex: =7
+
+        Button1 As button:
+            Height: =55
+            Text: ="Nút"
+            X: =238
+            Y: =392
+            ZIndex: =8
+
+        TextInput1 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =137
+            Y: =79
+            ZIndex: =9
+
+        TextInput1_1 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =141
+            ZIndex: =10
+
+        TextInput1_2 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =204
+            ZIndex: =11
+
+    Container6_19 As groupContainer.manualLayoutContainer:
+        Height: =470
+        Width: =420
+        X: =473
+        Y: =277
+        ZIndex: =8
+
+        Label1_1 As label:
+            Align: =Align.Center
+            Fill: =RGBA(102, 102, 102, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =56
+            Text: ="Văn bản"
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Label3_3 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =79
+            ZIndex: =2
+
+        Label3_4 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =141
+            ZIndex: =3
+
+        Label3_5 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =204
+            ZIndex: =4
+
+        Label4_3 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =79
+            ZIndex: =5
+
+        Label4_4 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =141
+            ZIndex: =6
+
+        Label4_5 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =204
+            ZIndex: =7
+
+        Button1_1 As button:
+            Height: =55
+            Text: ="Nút"
+            X: =238
+            Y: =392
+            ZIndex: =8
+
+        TextInput1_3 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =137
+            Y: =79
+            ZIndex: =9
+
+        TextInput1_4 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =141
+            ZIndex: =10
+
+        TextInput1_5 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =204
+            ZIndex: =11
+
+    Container6_20 As groupContainer.manualLayoutContainer:
+        Height: =470
+        Width: =420
+        X: =914
+        Y: =277
+        ZIndex: =9
+
+        Label1_2 As label:
+            Align: =Align.Center
+            Fill: =RGBA(102, 102, 102, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =56
+            Text: ="Văn bản"
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Label3_6 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =79
+            ZIndex: =2
+
+        Label3_7 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =141
+            ZIndex: =3
+
+        Label3_8 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =28
+            Y: =201
+            ZIndex: =4
+
+        Label4_6 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =79
+            ZIndex: =5
+
+        Label4_7 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =141
+            ZIndex: =6
+
+        Label4_8 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =201
+            ZIndex: =7
+
+        Button1_2 As button:
+            Height: =55
+            Text: ="Nút"
+            X: =238
+            Y: =392
+            ZIndex: =8
+
+        TextInput1_6 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =137
+            Y: =79
+            ZIndex: =9
+
+        TextInput1_7 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =141
+            ZIndex: =10
+
+        TextInput1_8 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =201
+            ZIndex: =11
+
+        Label3_9 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =264
+            ZIndex: =12
+
+        Label3_10 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =110
+            X: =27
+            Y: =326
+            ZIndex: =13
+
+        Label4_9 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =264
+            ZIndex: =15
+
+        Label4_10 As label:
+            Height: =45
+            Text: ="Văn bản"
+            Width: =58
+            X: =335
+            Y: =326
+            ZIndex: =16
+
+        TextInput1_9 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =137
+            Y: =264
+            ZIndex: =18
+
+        TextInput1_10 As text:
+            Default: ="Đầu vào văn bản"
+            Height: =45
+            Width: =187
+            X: =138
+            Y: =326
+            ZIndex: =19
 
