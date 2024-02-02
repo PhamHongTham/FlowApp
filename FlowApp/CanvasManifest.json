@@ -97,7 +97,7 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -116,7 +116,7 @@
     "Id": "fe1ddc88-0049-41c5-a069-610864bd0ad9",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "FlowApp",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
