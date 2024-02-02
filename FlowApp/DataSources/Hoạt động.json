@@ -1,0 +1,368 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "activitypointers",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "activitypointer",
+    "Name": "Hoạt động",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Chủ sở hữu",
+      "_regardingobjectid_value": "Bản lưu ý",
+      "activity_pointer_activity_mime_attachment": "Tệp đính kèm",
+      "activity_pointer_adx_inviteredemption": "Quy đổi Lời mời",
+      "activity_pointer_adx_portalcomment": "Nhận xét Cổng thông tin",
+      "activity_pointer_appointment": "Cuộc hẹn",
+      "activity_pointer_chat": "Trò chuyện qua Teams",
+      "activity_pointer_email": "Email",
+      "activity_pointer_fax": "Bản fax",
+      "activity_pointer_letter": "Thư tín",
+      "activity_pointer_phonecall": "Cuộc gọi điện thoại",
+      "activity_pointer_recurrencerule": "Quy tắc lặp lại",
+      "activity_pointer_recurringappointmentmaster": "Cuộc hẹn lặp lại",
+      "activity_pointer_task": "Nhiệm vụ",
+      "activityadditionalparams": "Tham số bổ sung của hoạt động",
+      "activityid": "Hoạt động",
+      "ActivityPointer_AsyncOperations": "Công việc Hệ thống",
+      "ActivityPointer_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "activitypointer_connections1": "Kết nối (activitypointer_connections1)",
+      "activitypointer_connections2": "Kết nối (activitypointer_connections2)",
+      "activitypointer_FileAttachments": "FileAttachments",
+      "ActivityPointer_QueueItem": "Mục trong hàng đợi",
+      "activitytypecode": "Loại Hoạt động",
+      "actualdurationminutes": "Khoảng thời gian Thực tế",
+      "actualend": "Kết thúc Thực tế",
+      "actualstart": "Bắt đầu Thực tế",
+      "community": "Kênh Xã hội",
+      "createdby": "Người tạo",
+      "createdon": "Ngày Tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "deliverylastattemptedon": "Ngày Gửi Cuối cùng",
+      "deliveryprioritycode": "Ưu tiên Gửi",
+      "description": "Mô tả",
+      "descriptionblobid": "ID tệp mô tả",
+      "exchangeitemid": "ID Hạng mục Exchange",
+      "exchangerate": "Tỷ giá",
+      "exchangeweblink": "WebLink của Exchange",
+      "formattedscheduledend": "Ngày kết thúc đã được định dạng",
+      "formattedscheduledstart": "Ngày bắt đầu đã được định dạng",
+      "instancetypecode": "Loại Phiên bản Lặp lại",
+      "isbilled": "Được lập hóa đơn",
+      "ismapiprivate": "Riêng tư",
+      "isregularactivity": "Hoạt động Thông thường",
+      "isworkflowcreated": "Quy trình làm việc Được tạo",
+      "lastonholdtime": "Thời gian Tạm giữ Gần đây nhất",
+      "leftvoicemail": "Để lại Thư Thoại",
+      "modifiedby": "Người Sửa đổi",
+      "modifiedon": "Cập nhật Lần cuối",
+      "modifiedonbehalfby": "Người Sửa đổi (Đại diện)",
+      "onholdtime": "Thời gian Tạm giữ (Phút)",
+      "owningbusinessunit": "Đơn vị Kinh doanh Sở hữu",
+      "owningteam": "Nhóm Sở hữu",
+      "owninguser": "Người dùng Sở hữu",
+      "postponeactivityprocessinguntil": "Hoãn xử lý hoạt động cho đến",
+      "prioritycode": "Ưu tiên",
+      "processid": "Quy trình",
+      "scheduleddurationminutes": "Khoảng thời gian Theo lịch",
+      "scheduledend": "Ngày Hết hạn",
+      "scheduledstart": "Ngày Bắt đầu",
+      "sendermailboxid": "Hộp thư của Người gửi",
+      "senton": "Ngày Gửi",
+      "seriesid": "Id Chuỗi",
+      "sortdate": "Sắp xếp Ngày",
+      "stageid": "(Không còn dùng) Giai đoạn Quy trình",
+      "statecode": "Trạng thái Hoạt động",
+      "statuscode": "Lý do dẫn đến Trạng thái",
+      "subject": "Chủ đề",
+      "timezoneruleversionnumber": "Số Phiên bản Quy tắc Múi Giờ",
+      "transactioncurrencyid": "Loại tiền",
+      "traversedpath": "(Không còn dùng) Đường ngang",
+      "utcconversiontimezonecode": "Mã Múi Giờ Chuyển đổi UTC",
+      "versionnumber": "Số Phiên bản"
+    },
+    "PreferredName": "Hoạt động",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Hoạt động (lượt xem)",
+    "Name": "_activitypointer_views",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666100": "Dạng xem tìm kiếm nâng cao hoạt động",
+      "00000000-0000-0000-00aa-000010001899": "Hoạt động của tôi †",
+      "00000000-0000-0000-00aa-000010001900": "Hoạt động Mở",
+      "00000000-0000-0000-00aa-000010001901": "Hoạt động đã đóng",
+      "00000000-0000-0000-00aa-000010001902": "Tất cả hoạt động",
+      "00000000-0000-0000-00aa-000010001903": "Dạng xem liên kết hoạt động mở",
+      "1795e537-6270-4c62-8175-77cf045315f3": "Hoạt động đã lập lịch",
+      "21e2b905-6fdb-470d-8517-ad69b4c01268": "Dạng xem liên kết hoạt động đã đóng",
+      "2fcd7d4b-531d-4232-82c4-a491da528744": "Dạng xem Tra cứu hoạt động",
+      "47f4e494-fee0-483c-844c-5a9e35b1c565": "Tất cả dạng xem liên kết hoạt động lập kế hoạch",
+      "7f15e2bb-305a-468f-9af7-be865755a984": "Dạng xem Tất cả Hoạt động Liên kết",
+      "8fba639e-cd73-df11-805d-00155db1891a": "Hoạt động của thành viên nhóm của tôi",
+      "ed1f0041-4f6b-4171-8757-4ac44c2fcafa": "Hoạt động đã đóng của tôi",
+      "f8d3a0d7-83ee-47b7-945c-c9463cbf380d": "Dạng xem liên kết hoạt động lập kế hoạch mở"
+    }
+  },
+  {
+    "DisplayName": "Loại Hoạt động",
+    "Name": "activitypointer_activitytypecode",
+    "OptionSetInfoNameMapping": {
+      "10119": "Trò chuyện qua Teams",
+      "10255": "Quy đổi Lời mời",
+      "10256": "Nhận xét Cổng thông tin",
+      "4201": "Cuộc hẹn",
+      "4202": "Email",
+      "4204": "Fax",
+      "4207": "Thư tín",
+      "4210": "Cuộc gọi điện thoại",
+      "4212": "Nhiệm vụ",
+      "4251": "Cuộc hẹn lặp lại"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "activitytypecode",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "EntityNameType",
+    "RelatedColumnInvariantName": "activitytypecode",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ưu tiên Gửi",
+    "Name": "activitypointer_deliveryprioritycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Thấp",
+      "1": "Bình thường",
+      "2": "Cao"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "deliveryprioritycode",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "deliveryprioritycode",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Loại Phiên bản Lặp lại (Hoạt động)",
+    "Name": "activitypointer_instancetypecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Không Lặp lại",
+      "1": "Bản ghi chủ Lặp lại",
+      "2": "Phiên bản Lặp lại",
+      "3": "Ngoại lệ Lặp lại",
+      "4": "Ngoại lệ Tương lai Lặp lại"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "instancetypecode",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "instancetypecode",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Được lập hóa đơn (Hoạt động)",
+    "Name": "activitypointer_isbilled",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isbilled",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isbilled",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Riêng tư (Hoạt động)",
+    "Name": "activitypointer_ismapiprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ismapiprivate",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "ismapiprivate",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Hoạt động Thông thường",
+    "Name": "activitypointer_isregularactivity",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isregularactivity",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isregularactivity",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Quy trình làm việc Được tạo (Hoạt động)",
+    "Name": "activitypointer_isworkflowcreated",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isworkflowcreated",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isworkflowcreated",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Để lại Thư Thoại (Hoạt động)",
+    "Name": "activitypointer_leftvoicemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "leftvoicemail",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "leftvoicemail",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ưu tiên (Hoạt động)",
+    "Name": "activitypointer_prioritycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Thấp",
+      "1": "Bình thường",
+      "2": "Cao"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "prioritycode",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "prioritycode",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Trạng thái Hoạt động (Hoạt động)",
+    "Name": "activitypointer_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Mở",
+      "1": "Đã hoàn thành",
+      "2": "Đã hủy",
+      "3": "Đã lập lịch"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lý do dẫn đến Trạng thái (Hoạt động)",
+    "Name": "activitypointer_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Mở",
+      "2": "Đã hoàn thành",
+      "3": "Đã hủy",
+      "4": "Đã lập lịch"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Kênh Xã hội",
+    "Name": "socialprofile_community",
+    "OptionSetInfoNameMapping": {
+      "0": "Khác",
+      "1": "Facebook",
+      "2": "Twitter"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "community",
+        "OptionSetReferenceEntityName": "Hoạt động"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "community",
+    "RelatedEntityName": "Hoạt động",
+    "Type": "OptionSetInfo"
+  }
+]

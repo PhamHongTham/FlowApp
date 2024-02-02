@@ -115,7 +115,6 @@
     "FileID": "fe1ddc88-0049-41c5-a069-610864bd0ad9",
     "Id": "fe1ddc88-0049-41c5-a069-610864bd0ad9",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "FlowApp",
     "OriginatingVersion": "1.336",
@@ -136,8 +135,8 @@
   "ScreenOrder": [
     "dotxuat",
     "xacnhan",
-    "xulinguyenlieu",
     "quanlicapnuoc",
+    "xulinguyenlieu",
     "xacnhancuoicung"
   ]
 }

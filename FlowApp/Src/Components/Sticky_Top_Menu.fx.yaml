@@ -22,14 +22,14 @@ Sticky_Top_Menu As CanvasComponent:
 
     img_xulinguyenlieu As image:
         Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(xulinguyenlieu,ScreenTransition.Fade)
+        OnSelect: =Navigate(quanlicapnuoc,ScreenTransition.Fade)
         Width: =147
         X: =220
         ZIndex: =5
 
     img_quanlicapnuoc As image:
         Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(quanlicapnuoc,ScreenTransition.Fade)
+        OnSelect: =Navigate(xulinguyenlieu,ScreenTransition.Fade)
         Width: =147
         X: =327
         ZIndex: =6

@@ -1,8 +1,86 @@
 xulinguyenlieu As screen:
-    Fill: =RGBA(253, 222, 207, 1)
+    Fill: =RGBA(0, 0, 0, 0)
 
-    Sticky_Top_Menu_3 As Sticky_Top_Menu:
-        Selected: ="xulinguyenlieu"
+    Sticky_Top_Menu_5 As Sticky_Top_Menu:
+        Selected: ="quanlicapnuoc"
         X: =Parent.Width/2 - Self.Width/2
-        Y: =20
+
+    DataTable4 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        BorderThickness: =1
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =291
+        Width: =464
+        X: =36
+        Y: =115
+        ZIndex: =1
+
+    DataTable4_1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        BorderThickness: =1
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =291
+        Width: =465
+        X: =36
+        Y: =425
+        ZIndex: =2
+
+    Container10 As groupContainer.manualLayoutContainer:
+        Height: =221
+        Width: =267
+        X: =631
+        Y: =115
+        ZIndex: =3
+
+    Container10_1 As groupContainer.manualLayoutContainer:
+        Height: =221
+        Width: =267
+        X: =917
+        Y: =115
+        ZIndex: =4
+
+    Button4 As button:
+        Height: =60
+        Text: ="Nút"
+        Width: =126
+        X: =1203
+        Y: =138
+        ZIndex: =5
+
+    Button4_1 As button:
+        Height: =60
+        Text: ="Nút"
+        Width: =126
+        X: =1203
+        Y: =242
+        ZIndex: =6
+
+    DataTable5 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        BorderThickness: =1
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =376
+        Width: =698
+        X: =631
+        Y: =358
+        ZIndex: =7
+
+    Image10 As image:
+        Image: =triangle
+        ImageRotation: =ImageRotation.Rotate90
+        Width: =90
+        X: =521
+        Y: =179
+        ZIndex: =8
+
+    Image10_1 As image:
+        Image: =triangle
+        ImageRotation: =ImageRotation.Rotate90
+        Width: =90
+        X: =520
+        Y: =496
+        ZIndex: =9
 

@@ -1,0 +1,966 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "accounts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "account",
+    "Name": "Tài khoản",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Chủ sở hữu",
+      "{Attachments}": "Attachments",
+      "account_actioncard": "Thẻ Hành động",
+      "Account_ActivityPointers": "Hoạt động",
+      "account_adx_inviteredemptions": "Quy đổi Lời mời",
+      "account_adx_portalcomments": "Nhận xét Cổng thông tin",
+      "Account_Annotation": "Ghi chú",
+      "Account_Appointments": "Cuộc hẹn",
+      "Account_AsyncOperations": "Công việc Hệ thống",
+      "Account_BulkDeleteFailures": "Lỗi Xóa Hàng loạt",
+      "account_connections1": "Kết nối (account_connections1)",
+      "account_connections2": "Kết nối (account_connections2)",
+      "Account_CustomerAddress": "Địa chỉ",
+      "account_chats": "Trò chuyện qua Teams",
+      "Account_DuplicateBaseRecord": "Bản ghi Trùng lặp (Account_DuplicateBaseRecord)",
+      "Account_DuplicateMatchingRecord": "Bản ghi Trùng lặp (Account_DuplicateMatchingRecord)",
+      "Account_Email_EmailSender": "Email (Account_Email_EmailSender)",
+      "Account_Email_SendersAccount": "Email (Account_Email_SendersAccount)",
+      "Account_Emails": "Email (Account_Emails)",
+      "Account_Faxes": "Bản fax",
+      "Account_Letters": "Thư tín",
+      "Account_MailboxTrackingFolder": "Thư mục Tự động Theo dõi Hộp thư",
+      "account_master_account": "Tài khoản (account_master_account)",
+      "account_parent_account": "Tài khoản (account_parent_account)",
+      "account_PostFollows": "Theo dõi",
+      "account_PostRegardings": "Bản lưu ý bài đăng",
+      "account_principalobjectattributeaccess": "Chia sẻ trường",
+      "Account_ProcessSessions": "Giao dịch quy trình",
+      "Account_Phonecalls": "Cuộc gọi điện thoại",
+      "Account_RecurringAppointmentMasters": "Cuộc hẹn lặp lại",
+      "Account_SharepointDocumentLocation": "Vị trí tài liệu",
+      "Account_SyncErrors": "Lỗi đồng bộ",
+      "Account_Tasks": "Nhiệm vụ",
+      "accountcategorycode": "Thể loại",
+      "accountclassificationcode": "Phân loại",
+      "accountid": "Tài khoản (accountid)",
+      "accountnumber": "Số Tài khoản",
+      "accountratingcode": "Xếp hạng Tài khoản",
+      "address1_addresstypecode": "Địa chỉ 1: Loại Địa chỉ",
+      "address1_city": "Địa chỉ 1: Thành phố",
+      "address1_composite": "Địa chỉ 1",
+      "address1_county": "Địa chỉ 1: Hạt",
+      "address1_country": "Địa chỉ 1: Quốc gia/Khu vực",
+      "address1_fax": "Địa chỉ 1: Fax",
+      "address1_freighttermscode": "Địa chỉ 1: Điều khoản Vận chuyển hàng hóa",
+      "address1_latitude": "Địa chỉ 1: Vĩ độ",
+      "address1_line1": "Địa chỉ 1: Phố 1",
+      "address1_line2": "Địa chỉ 1: Phố 2",
+      "address1_line3": "Địa chỉ 1: Phố 3",
+      "address1_longitude": "Địa chỉ 1: Kinh độ",
+      "address1_name": "Địa chỉ 1: Tên",
+      "address1_postalcode": "Địa chỉ 1: Mã ZIP/Mã Bưu điện",
+      "address1_postofficebox": "Địa chỉ 1: Hòm Thư",
+      "address1_primarycontactname": "Địa chỉ 1: Tên Người liên hệ Chính",
+      "address1_shippingmethodcode": "Địa chỉ 1: Phương thức Giao hàng",
+      "address1_stateorprovince": "Địa chỉ 1: Bang/Tỉnh",
+      "address1_telephone1": "Điện thoại theo Địa chỉ",
+      "address1_telephone2": "Địa chỉ 1: Điện thoại 2",
+      "address1_telephone3": "Địa chỉ 1: Điện thoại 3",
+      "address1_upszone": "Địa chỉ 1: Vùng UPS",
+      "address1_utcoffset": "Địa chỉ 1: Phần bù UTC",
+      "address2_addresstypecode": "Địa chỉ 2: Loại Địa chỉ",
+      "address2_city": "Địa chỉ 2: Thành phố",
+      "address2_composite": "Địa chỉ 2",
+      "address2_county": "Địa chỉ 2: Hạt",
+      "address2_country": "Địa chỉ 2: Quốc gia/Khu vực",
+      "address2_fax": "Địa chỉ 2: Fax",
+      "address2_freighttermscode": "Địa chỉ 2: Điều khoản Vận chuyển hàng hóa",
+      "address2_latitude": "Địa chỉ 2: Vĩ độ",
+      "address2_line1": "Địa chỉ 2: Phố 1",
+      "address2_line2": "Địa chỉ 2: Phố 2",
+      "address2_line3": "Địa chỉ 2: Phố 3",
+      "address2_longitude": "Địa chỉ 2: Kinh độ",
+      "address2_name": "Địa chỉ 2: Tên",
+      "address2_postalcode": "Địa chỉ 2: Mã ZIP/Mã Bưu điện",
+      "address2_postofficebox": "Địa chỉ 2: Hòm Thư",
+      "address2_primarycontactname": "Địa chỉ 2: Tên Người liên hệ Chính",
+      "address2_shippingmethodcode": "Địa chỉ 2: Phương thức Giao hàng",
+      "address2_stateorprovince": "Địa chỉ 2: Bang/Tỉnh",
+      "address2_telephone1": "Địa chỉ 2: Điện thoại 1",
+      "address2_telephone2": "Địa chỉ 2: Điện thoại 2",
+      "address2_telephone3": "Địa chỉ 2: Điện thoại 3",
+      "address2_upszone": "Địa chỉ 2: Vùng UPS",
+      "address2_utcoffset": "Địa chỉ 2: Phần bù UTC",
+      "adx_createdbyipaddress": "Created By (IP Address)",
+      "adx_createdbyusername": "Created By (User Name)",
+      "adx_invitation_assigntoaccount": "Lời mời",
+      "adx_modifiedbyipaddress": "Modified By (IP Address)",
+      "adx_modifiedbyusername": "Modified By (User Name)",
+      "aging30": "Tuổi nợ 30",
+      "aging30_base": "Tuổi nợ 30 (Gốc)",
+      "aging60": "Tuổi nợ 60",
+      "aging60_base": "Tuổi nợ 60 (Gốc)",
+      "aging90": "Tuổi nợ 90",
+      "aging90_base": "Tuổi nợ 90 (Gốc)",
+      "businesstypecode": "Loại Doanh nghiệp",
+      "contact_customer_accounts": "Người liên hệ (contact_customer_accounts)",
+      "createdby": "Người tạo",
+      "createdon": "Ngày tạo",
+      "createdonbehalfby": "Người tạo (Đại diện)",
+      "creditlimit": "Giới hạn Tín dụng",
+      "creditlimit_base": "Giới hạn Tín dụng (Gốc)",
+      "creditonhold": "Treo Tín dụng",
+      "customersizecode": "Quy mô Khách hàng",
+      "customertypecode": "Loại Mối quan hệ",
+      "description": "Mô tả",
+      "donotbulkemail": "Không cho phép Email Hàng loạt",
+      "donotbulkpostalmail": "Không cho phép Thư Hàng loạt",
+      "donotemail": "Không cho phép Email",
+      "donotfax": "Không cho phép Fax",
+      "donotpostalmail": "Không cho phép Thư",
+      "donotphone": "Không cho phép Gọi điện",
+      "donotsendmm": "Gửi Tài liệu Tiếp thị",
+      "emailaddress1": "Email (emailaddress1)",
+      "emailaddress2": "Địa chỉ Email 2",
+      "emailaddress3": "Địa chỉ Email 3",
+      "entityimage": "Ảnh Mặc định",
+      "entityimageid": "Id Ảnh Thực thể",
+      "exchangerate": "Tỷ giá",
+      "fax": "Fax",
+      "followemail": "Theo dõi Hoạt động Email",
+      "ftpsiteurl": "Trang web FTP",
+      "importsequencenumber": "Số Thứ tự Nhập",
+      "industrycode": "Ngành",
+      "lastonholdtime": "Thời gian Tạm giữ Gần đây nhất",
+      "lastusedincampaign": "Ngày Sau cùng được Bao gồm trong Chiến dịch",
+      "marketcap": "Vốn hóa Thị trường",
+      "marketcap_base": "Vốn hóa Thị trường (Gốc)",
+      "marketingonly": "Chỉ dành cho Tiếp thị",
+      "masterid": "ID Tổng thể",
+      "merged": "Hợp nhất",
+      "modifiedby": "Người Sửa đổi",
+      "modifiedon": "Sửa đổi Vào",
+      "modifiedonbehalfby": "Người Sửa đổi (Đại diện)",
+      "msa_account_managingpartner": "Tài khoản (msa_account_managingpartner)",
+      "msa_contact_managingpartner": "Người liên hệ (msa_contact_managingpartner)",
+      "msa_managingpartnerid": "Managing Partner",
+      "name": "Tên Tài khoản",
+      "numberofemployees": "Số Nhân viên",
+      "onholdtime": "Thời gian Tạm giữ (Phút)",
+      "overriddencreatedon": "Ngày tạo Bản ghi",
+      "ownershipcode": "Quyền sở hữu",
+      "owningbusinessunit": "Đơn vị Kinh doanh Sở hữu",
+      "owningteam": "Nhóm Sở hữu",
+      "owninguser": "Người dùng Sở hữu",
+      "parentaccountid": "Tài khoản Mẹ",
+      "participatesinworkflow": "Tham gia trong Quy trình làm việc",
+      "paymenttermscode": "Điều khoản Thanh toán",
+      "powerpagecomponent_mspp_webrole_account": "Thành phần trang web",
+      "preferredappointmentdaycode": "Ngày ưu tiên",
+      "preferredappointmenttimecode": "Giờ ưu tiên",
+      "preferredcontactmethodcode": "Phương thức Liên hệ Ưu tiên",
+      "preferredsystemuserid": "Người dùng Ưu tiên",
+      "primarycontactid": "Người liên hệ Chính",
+      "primarysatoriid": "ID Satori Chính",
+      "primarytwitterid": "ID Twitter Chính",
+      "processid": "Quy trình",
+      "revenue": "Doanh thu Hàng năm",
+      "revenue_base": "Doanh thu Hàng năm (Gốc)",
+      "sharesoutstanding": "Cổ phiếu Lưu hành",
+      "shippingmethodcode": "Phương thức Giao hàng",
+      "sic": "Mã SIC",
+      "stageid": "(Không còn dùng) Giai đoạn Quy trình",
+      "statecode": "Trạng thái",
+      "statuscode": "Lý do dẫn đến Trạng thái",
+      "stockexchange": "Sở giao dịch Chứng khoán",
+      "telephone1": "Điện thoại Chính",
+      "telephone2": "Điện thoại Khác",
+      "telephone3": "Điện thoại 3",
+      "territorycode": "Mã Vùng lãnh thổ",
+      "tickersymbol": "Ký hiệu Chứng khoán",
+      "timespentbymeonemailandmeetings": "Thời gian tôi sử dụng",
+      "timezoneruleversionnumber": "Số Phiên bản Quy tắc Múi Giờ",
+      "transactioncurrencyid": "Loại tiền",
+      "traversedpath": "(Không còn dùng) Đường ngang",
+      "utcconversiontimezonecode": "Mã Múi Giờ Chuyển đổi UTC",
+      "versionnumber": "Số Phiên bản",
+      "websiteurl": "Trang web",
+      "yominame": "Tên Tài khoản Yomi"
+    },
+    "PreferredName": "Tài khoản",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Tài khoản (lượt xem)",
+    "Name": "_account_views",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "ViewInfo",
+    "TrimmedViewName": true,
+    "ViewInfoNameMapping": {
+      "00000000-0000-0000-00aa-000000666000": "Dạng xem tìm kiếm nâng cao khách hàng",
+      "00000000-0000-0000-00aa-000010001001": "Khách hàng hiện hoạt của tôi",
+      "00000000-0000-0000-00aa-000010001002": "Tài khoản hiện hoạt",
+      "00000000-0000-0000-00aa-000010001031": "Khách hàng không hoạt động",
+      "00000000-0000-0000-00aa-000010001200": "Dạng xem liên kết khách hàng",
+      "15c63745-0a6e-4322-8416-a62c84d90279": "Khách hàng: Các giao dịch có ảnh hưởng chúng ta đã giành được",
+      "49fb9771-09e1-4e70-b193-198752493577": "Khách hàng: Đã phản hồi về chiến dịch trong sáu tháng qua",
+      "65ffaf9a-e8c5-432d-860b-32f841b00d87": "Tất cả Khách hàng",
+      "a9af0ab8-861d-4cfa-92a5-c6281fed7fab": "Dạng xem Tra cứu khách hàng",
+      "cfbcd7af-aee5-4e45-8ecc-c040d4020581": "Khách hàng: Không có hoạt động chiến dịch trong 3 tháng qua",
+      "d234426e-1f37-4944-9255-50e19b541c4c": "Kết nối của tôi"
+    }
+  },
+  {
+    "DisplayName": "Thể loại (Tài khoản)",
+    "Name": "account_accountcategorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Khách hàng Ưu tiên",
+      "2": "Chuẩn"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountcategorycode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountcategorycode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Phân loại (Tài khoản)",
+    "Name": "account_accountclassificationcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountclassificationcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountclassificationcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Xếp hạng Tài khoản (Tài khoản)",
+    "Name": "account_accountratingcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "accountratingcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "accountratingcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 1: Loại Địa chỉ (Tài khoản)",
+    "Name": "account_address1_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Nhận hóa đơn",
+      "2": "Nhận hàng",
+      "3": "Chính",
+      "4": "Khác"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_addresstypecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_addresstypecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 1: Điều khoản Vận chuyển hàng hóa (Tài khoản)",
+    "Name": "account_address1_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Cảng giao hàng",
+      "2": "Miễn phí"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_freighttermscode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_freighttermscode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 1: Phương thức Giao hàng (Tài khoản)",
+    "Name": "account_address1_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Chuyên chở bằng máy bay",
+      "2": "DHL",
+      "3": "FedEx",
+      "4": "UPS",
+      "5": "Thư gửi bưu điện",
+      "6": "Đầy tải",
+      "7": "Bán lẻ đặt hàng trước"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address1_shippingmethodcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 2: Loại Địa chỉ (Tài khoản)",
+    "Name": "account_address2_addresstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_addresstypecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_addresstypecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 2: Điều khoản Vận chuyển hàng hóa (Tài khoản)",
+    "Name": "account_address2_freighttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_freighttermscode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_freighttermscode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Địa chỉ 2: Phương thức Giao hàng (Tài khoản)",
+    "Name": "account_address2_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "address2_shippingmethodcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Loại Doanh nghiệp (Tài khoản)",
+    "Name": "account_businesstypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "businesstypecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "businesstypecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Treo Tín dụng (Tài khoản)",
+    "Name": "account_creditonhold",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "creditonhold",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "creditonhold",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Quy mô Khách hàng (Tài khoản)",
+    "Name": "account_customersizecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customersizecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customersizecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Loại Mối quan hệ (Tài khoản)",
+    "Name": "account_customertypecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Đối thủ cạnh tranh",
+      "10": "Nhà cung cấp",
+      "11": "Đại lý",
+      "12": "Khác",
+      "2": "Tư vấn viên",
+      "3": "Khách hàng",
+      "4": "Nhà đầu tư",
+      "5": "Đối tác",
+      "6": "Người ảnh hưởng",
+      "7": "Báo chí",
+      "8": "Khách hàng triển vọng",
+      "9": "Nhà bán lẻ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "customertypecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "customertypecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Không cho phép Email Hàng loạt (Tài khoản)",
+    "Name": "account_donotbulkemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Chấp nhận",
+      "1": "Không chấp nhận"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkemail",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkemail",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Không cho phép Thư Hàng loạt (Tài khoản)",
+    "Name": "account_donotbulkpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotbulkpostalmail",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotbulkpostalmail",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Không cho phép Email (Tài khoản)",
+    "Name": "account_donotemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Chấp nhận",
+      "1": "Không chấp nhận"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotemail",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotemail",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Không cho phép Fax (Tài khoản)",
+    "Name": "account_donotfax",
+    "OptionSetInfoNameMapping": {
+      "0": "Chấp nhận",
+      "1": "Không chấp nhận"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotfax",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotfax",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Không cho phép Gọi điện (Tài khoản)",
+    "Name": "account_donotphone",
+    "OptionSetInfoNameMapping": {
+      "0": "Chấp nhận",
+      "1": "Không chấp nhận"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotphone",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotphone",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Không cho phép Thư (Tài khoản)",
+    "Name": "account_donotpostalmail",
+    "OptionSetInfoNameMapping": {
+      "0": "Chấp nhận",
+      "1": "Không chấp nhận"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotpostalmail",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotpostalmail",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Gửi Tài liệu Tiếp thị (Tài khoản)",
+    "Name": "account_donotsendmm",
+    "OptionSetInfoNameMapping": {
+      "0": "Gửi",
+      "1": "Không Gửi"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "donotsendmm",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "donotsendmm",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Theo dõi Hoạt động Email (Tài khoản)",
+    "Name": "account_followemail",
+    "OptionSetInfoNameMapping": {
+      "0": "Không cho phép",
+      "1": "Cho phép"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "followemail",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "followemail",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ngành (Tài khoản)",
+    "Name": "account_industrycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Kế toán",
+      "10": "Nhà phân phối, Người điều vận và Nhà chế biến",
+      "11": "Văn phòng và Phòng khám Bác sĩ",
+      "12": "Sản xuất Lâu bền",
+      "13": "Địa điểm Ăn Uống",
+      "14": "Bán lẻ Dịch vụ Giải trí",
+      "15": "Thuê và Cho thuê Thiết bị",
+      "16": "Tài chính",
+      "17": "Chế biến Thực phẩm và Thuốc lá",
+      "18": "Xử lý Dựa vào Nhiều vốn Chuyển về",
+      "19": "Sửa chữa và Bảo dưỡng Chuyển đến",
+      "2": "Nông nghiệp và Trích xuất Tài nguyên Thiên nhiên Không Dầu",
+      "20": "Bảo hiểm",
+      "21": "Dịch vụ Pháp lý",
+      "22": "Bán lẻ Hàng hóa Không lâu bền",
+      "23": "Dịch vụ Tiêu dùng Bên ngoài",
+      "24": "Trích xuất và Phân phối Hóa dầu",
+      "25": "Bán lẻ Dịch vụ",
+      "26": "Chi nhánh SIG",
+      "27": "Dịch vụ Xã hội",
+      "28": "Nhà thầu Giao dịch Bên ngoài Đặc biệt",
+      "29": "Bất động sản Đặc biệt",
+      "3": "In và Xuất bản Truyền thông",
+      "30": "Vận tải",
+      "31": "Tạo và Phân phối Tiện ích",
+      "32": "Bán lẻ Phương tiện",
+      "33": "Bán buôn",
+      "4": "Nhà môi giới",
+      "5": "Bán lẻ Dịch vụ Cấp nước trong Tòa nhà",
+      "6": "Dịch vụ Kinh doanh",
+      "7": "Tư vấn",
+      "8": "Dịch vụ Tiêu dùng",
+      "9": "Quản lý Thiết kế, Chỉ đạo và Quảng cáo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "industrycode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "industrycode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "IsPrivate (Tài khoản)",
+    "Name": "account_isprivate",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "isprivate",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "isprivate",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Chỉ dành cho Tiếp thị (Tài khoản)",
+    "Name": "account_marketingonly",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "marketingonly",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "marketingonly",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Hợp nhất (Tài khoản)",
+    "Name": "account_merged",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "merged",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "merged",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Quyền sở hữu (Tài khoản)",
+    "Name": "account_ownershipcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Công khai",
+      "2": "Riêng tư",
+      "3": "Công ty con",
+      "4": "Khác"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "ownershipcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "ownershipcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Tham gia trong Quy trình làm việc (Tài khoản)",
+    "Name": "account_participatesinworkflow",
+    "OptionSetInfoNameMapping": {
+      "0": "Không",
+      "1": "Có"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "participatesinworkflow",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "participatesinworkflow",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Điều khoản Thanh toán (Tài khoản)",
+    "Name": "account_paymenttermscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Tổng 30",
+      "2": "2% 10, Tổng 30",
+      "3": "Tổng 45",
+      "4": "Tổng 60"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "paymenttermscode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "paymenttermscode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Ngày ưu tiên (Tài khoản)",
+    "Name": "account_preferredappointmentdaycode",
+    "OptionSetInfoNameMapping": {
+      "0": "Chủ Nhật",
+      "1": "Thứ Hai",
+      "2": "Thứ Ba",
+      "3": "Thứ Tư",
+      "4": "Thứ Năm",
+      "5": "Thứ Sáu",
+      "6": "Thứ Bảy"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmentdaycode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmentdaycode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Giờ ưu tiên (Tài khoản)",
+    "Name": "account_preferredappointmenttimecode",
+    "OptionSetInfoNameMapping": {
+      "1": "Buổi sáng",
+      "2": "Buổi chiều",
+      "3": "Buổi tối"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredappointmenttimecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredappointmenttimecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Phương thức Liên hệ Ưu tiên (Tài khoản)",
+    "Name": "account_preferredcontactmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Bất kỳ",
+      "2": "Email",
+      "3": "Điện thoại",
+      "4": "Fax",
+      "5": "Thư"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "preferredcontactmethodcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "preferredcontactmethodcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Phương thức Giao hàng (Tài khoản)",
+    "Name": "account_shippingmethodcode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "shippingmethodcode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "shippingmethodcode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Trạng thái (Tài khoản)",
+    "Name": "account_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Hiện hoạt",
+      "1": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Lý do dẫn đến Trạng thái (Tài khoản)",
+    "Name": "account_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Hiện hoạt",
+      "2": "Không hoạt động"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Mã Vùng lãnh thổ (Tài khoản)",
+    "Name": "account_territorycode",
+    "OptionSetInfoNameMapping": {
+      "1": "Giá trị mặc định"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "territorycode",
+        "OptionSetReferenceEntityName": "Tài khoản"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "territorycode",
+    "RelatedEntityName": "Tài khoản",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,5 +1,5 @@
 xacnhancuoicung As screen:
-    Fill: =RGBA(238, 204, 204, 1)
+    Fill: =RGBA(0, 0, 0, 0)
 
     Sticky_Top_Menu_4 As Sticky_Top_Menu:
         Selected: ="xacnhancuoicung"
