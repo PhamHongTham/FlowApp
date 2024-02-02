@@ -14,6 +14,8 @@ quanlicapnuoc As screen:
 
         Label15 As label:
             Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
             Text: ="F.O.S"
             Width: =Parent.Width
             ZIndex: =1
@@ -25,12 +27,28 @@ quanlicapnuoc As screen:
         Y: =120
         ZIndex: =3
 
+        Label15_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="FOS/TAC"
+            Width: =Parent.Width
+            ZIndex: =1
+
     Container6_15 As groupContainer.manualLayoutContainer:
         Height: =140
         Width: =249
         X: =559
         Y: =120
         ZIndex: =4
+
+        Label15_2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="amoniac"
+            Width: =Parent.Width
+            ZIndex: =1
 
     Container6_16 As groupContainer.manualLayoutContainer:
         Height: =140
@@ -39,12 +57,28 @@ quanlicapnuoc As screen:
         Y: =120
         ZIndex: =5
 
+        Label15_3 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="Nồng độ metan F1"
+            Width: =Parent.Width
+            ZIndex: =1
+
     Container6_17 As groupContainer.manualLayoutContainer:
         Height: =140
         Width: =249
         X: =1085
         Y: =120
         ZIndex: =6
+
+        Label15_4 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: ="XXX"
+            Width: =Parent.Width
+            ZIndex: =1
 
     Container6_18 As groupContainer.manualLayoutContainer:
         Height: =470
@@ -55,56 +89,73 @@ quanlicapnuoc As screen:
 
         Label1 As label:
             Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
             Height: =56
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="Cung cấp nước lên men"
             Width: =Parent.Width
             ZIndex: =1
 
         Label3 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="V2->F1"
             Width: =110
             X: =27
             Y: =79
             ZIndex: =2
 
         Label3_1 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="F1->PF1"
             Width: =110
             X: =27
             Y: =141
             ZIndex: =3
 
         Label3_2 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="F1PF1"
             Width: =110
             X: =27
             Y: =204
             ZIndex: =4
 
         Label4 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =79
             ZIndex: =5
 
         Label4_1 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =141
             ZIndex: =6
 
         Label4_2 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =204
@@ -150,56 +201,72 @@ quanlicapnuoc As screen:
 
         Label1_1 As label:
             Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
             Height: =56
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="S3->WWTP"
             Width: =Parent.Width
             ZIndex: =1
 
         Label3_3 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: |-
+                ="Sản xuất nước tái chế
+                "
             Width: =110
-            X: =27
+            X: =15
             Y: =79
             ZIndex: =2
 
         Label3_4 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: ="WAS-S4"
             Width: =110
-            X: =27
+            X: =15
             Y: =141
             ZIndex: =3
 
         Label3_5 As label:
+            Align: =Align.Center
             Height: =45
             Text: ="Văn bản"
             Width: =110
-            X: =27
-            Y: =204
+            X: =15
+            Y: =201
             ZIndex: =4
 
         Label4_3 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =79
             ZIndex: =5
 
         Label4_4 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =141
             ZIndex: =6
 
         Label4_5 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =204
@@ -245,56 +312,70 @@ quanlicapnuoc As screen:
 
         Label1_2 As label:
             Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(102, 102, 102, 1)
             FontWeight: =FontWeight.Semibold
             Height: =56
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="VS1->FSP"
             Width: =Parent.Width
             ZIndex: =1
 
         Label3_6 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: ="Nước sông  -> S3"
             Width: =110
-            X: =27
+            X: =14
             Y: =79
             ZIndex: =2
 
         Label3_7 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: ="S2 - S3"
             Width: =110
-            X: =27
+            X: =14
             Y: =141
             ZIndex: =3
 
         Label3_8 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: ="Dung lượng xử lý SSD"
             Width: =110
-            X: =28
+            X: =14
             Y: =201
             ZIndex: =4
 
         Label4_6 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =79
             ZIndex: =5
 
         Label4_7 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =141
             ZIndex: =6
 
         Label4_8 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =201
@@ -332,32 +413,40 @@ quanlicapnuoc As screen:
             ZIndex: =11
 
         Label3_9 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: ="Hoạt động của SSD"
             Width: =110
-            X: =27
+            X: =14
             Y: =264
             ZIndex: =12
 
         Label3_10 As label:
+            Align: =Align.Center
             Height: =45
-            Text: ="Văn bản"
+            Text: ="VS1 FSP"
             Width: =110
-            X: =27
+            X: =14
             Y: =326
             ZIndex: =13
 
         Label4_9 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =264
             ZIndex: =15
 
         Label4_10 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
             Height: =45
-            Text: ="Văn bản"
+            Size: =15
+            Text: ="t"
             Width: =58
             X: =335
             Y: =326
