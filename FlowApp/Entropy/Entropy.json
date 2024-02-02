@@ -1,6 +1,11 @@
 {
   "ComponentIndexes": {
-    "Sticky_Top_Menu": 5
+    "Sticky_Top_Menu": 5,
+    "Sticky_Top_Menu_1": 5,
+    "Sticky_Top_Menu_2": 5,
+    "Sticky_Top_Menu_3": 5,
+    "Sticky_Top_Menu_4": 5,
+    "Sticky_Top_Menu_5": 5
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -16,13 +21,18 @@
     "Rectangle5": 29,
     "Selected": 35,
     "Sticky_Top_Menu": 5,
+    "Sticky_Top_Menu_1": 36,
+    "Sticky_Top_Menu_2": 37,
+    "Sticky_Top_Menu_3": 38,
+    "Sticky_Top_Menu_4": 39,
+    "Sticky_Top_Menu_5": 40,
     "xacnhan": 11,
     "xacnhancuoicung": 14,
     "xulinguyenlieu": 12
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2024 06:39:38",
+  "HeaderLastSavedDateTimeUTC": "02/02/2024 06:42:49",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -59,6 +69,11 @@
     "Rectangle5": {},
     "Selected": {},
     "Sticky_Top_Menu": {},
+    "Sticky_Top_Menu_1": {},
+    "Sticky_Top_Menu_2": {},
+    "Sticky_Top_Menu_3": {},
+    "Sticky_Top_Menu_4": {},
+    "Sticky_Top_Menu_5": {},
     "xacnhan": {},
     "xacnhancuoicung": {},
     "xulinguyenlieu": {}
@@ -78,6 +93,11 @@
     "Rectangle5": 1,
     "Selected": 0,
     "Sticky_Top_Menu": 0,
+    "Sticky_Top_Menu_1": 0,
+    "Sticky_Top_Menu_2": 0,
+    "Sticky_Top_Menu_3": 0,
+    "Sticky_Top_Menu_4": 0,
+    "Sticky_Top_Menu_5": 0,
     "xacnhan": 0,
     "xacnhancuoicung": 0,
     "xulinguyenlieu": 0
@@ -91,7 +111,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0203239,
     "ControlCount": {
-      "df0ae66fdc0046ab97e5c31fb98b6417": 5,
+      "df0ae66fdc0046ab97e5c31fb98b6417": 10,
       "image": 11
     }
   },

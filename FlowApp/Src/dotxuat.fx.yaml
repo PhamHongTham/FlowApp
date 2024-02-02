@@ -1,2 +1,7 @@
 dotxuat As screen:
 
+    Sticky_Top_Menu_1 As Sticky_Top_Menu:
+        Selected: ="dotxuat"
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =20
+
