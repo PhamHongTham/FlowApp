@@ -12,7 +12,7 @@
     "App": 1,
     "dotxuat": 4,
     "Host": 3,
-    "img_dotxuat": 30,
+    "img_dotxuat": 42,
     "img_quanlicapnuoc": 33,
     "img_xacnhan": 31,
     "img_xacnhancuoicung": 34,
@@ -32,15 +32,17 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/02/2024 06:42:49",
+  "HeaderLastSavedDateTimeUTC": "02/02/2024 06:58:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
-    "Sticky-top-menu": "db254499-c081-4261-9b95-20ad85d6b89d.png"
+    "Sticky-top-menu": "db254499-c081-4261-9b95-20ad85d6b89d.png",
+    "Sticky-top-menu_1": "10e7025e-ad04-4563-8953-eb36fef29b29.png"
   },
   "LocalResourceRootPaths": {
-    "Sticky-top-menu": "https://docserverpwaprodseas.blob.core.windows.net/0100167d-653b-4385-af50-bee81ac92f03-1/resource/2f979419-7837-4158-b070-571cb02c7944.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-02T04%3A33%3A10Z&ske=2024-02-03T04%3A48%3A10Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-03T04%3A48%3A10Z&sr=b&sp=r&sig=8aCNRCS0nIPTLlSypyDBOtmJfaTi1u5nAqOXtJ1UbCQ%3D"
+    "Sticky-top-menu": "https://docserverpwaprodseas.blob.core.windows.net/0100167d-653b-4385-af50-bee81ac92f03-1/resource/2f979419-7837-4158-b070-571cb02c7944.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-02T04%3A33%3A10Z&ske=2024-02-03T04%3A48%3A10Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-03T04%3A48%3A10Z&sr=b&sp=r&sig=8aCNRCS0nIPTLlSypyDBOtmJfaTi1u5nAqOXtJ1UbCQ%3D",
+    "Sticky-top-menu_1": "https://docserverpwaprodseas.blob.core.windows.net/0100167d-653b-4385-af50-bee81ac92f03-1/resource/97f02680-4b67-419e-89bb-cec9cadb81c1.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-02-02T06%3A57%3A16Z&ske=2024-02-03T07%3A12%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-02-03T07%3A12%3A16Z&sr=b&sp=r&sig=KDpYrCAmDcayCHZt3nq0P4biUT8fBGyJwnHi6UDAbRg%3D"
   },
   "OrderComponentMetadata": {
     "df0ae66fdc0046ab97e5c31fb98b6417": 0
@@ -84,27 +86,28 @@
     "App": 0,
     "dotxuat": 0,
     "Host": 0,
-    "img_dotxuat": 2,
-    "img_quanlicapnuoc": 5,
-    "img_xacnhan": 3,
-    "img_xacnhancuoicung": 6,
-    "img_xulinguyenlieu": 4,
+    "img_dotxuat": 7,
+    "img_quanlicapnuoc": 11,
+    "img_xacnhan": 8,
+    "img_xacnhancuoicung": 12,
+    "img_xulinguyenlieu": 9,
     "quanlicapnuoc": 0,
-    "Rectangle5": 1,
-    "Selected": 0,
+    "Rectangle5": 6,
+    "Selected": 10,
     "Sticky_Top_Menu": 0,
     "Sticky_Top_Menu_1": 0,
-    "Sticky_Top_Menu_2": 0,
-    "Sticky_Top_Menu_3": 0,
-    "Sticky_Top_Menu_4": 0,
-    "Sticky_Top_Menu_5": 0,
+    "Sticky_Top_Menu_2": 2,
+    "Sticky_Top_Menu_3": 3,
+    "Sticky_Top_Menu_4": 5,
+    "Sticky_Top_Menu_5": 4,
     "xacnhan": 0,
     "xacnhancuoicung": 0,
     "xulinguyenlieu": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0,
-    "Image-Sticky-top-menu": 1
+    "Image-Sticky-top-menu": 1,
+    "Image-Sticky-top-menu_1": 2
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
@@ -112,7 +115,7 @@
     "AnalysisLoadTime": 0.0203239,
     "ControlCount": {
       "df0ae66fdc0046ab97e5c31fb98b6417": 10,
-      "image": 11
+      "image": 12
     }
   },
   "WasLocalDatabaseReferencesEmpty": true

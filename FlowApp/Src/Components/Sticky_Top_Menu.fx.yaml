@@ -19,32 +19,37 @@ Sticky_Top_Menu As CanvasComponent:
         Y: =40
         ZIndex: =2
 
-    img_dotxuat As image:
-        Image: ='Sticky-top-menu'
-        Width: =147
-        ZIndex: =3
-
     img_xacnhan As image:
         Image: ='Sticky-top-menu'
+        OnSelect: =Navigate(xacnhan,ScreenTransition.Fade)
         Width: =147
         X: =108
         ZIndex: =4
 
     img_xulinguyenlieu As image:
         Image: ='Sticky-top-menu'
+        OnSelect: =Navigate(xulinguyenlieu,ScreenTransition.Fade)
         Width: =147
         X: =220
         ZIndex: =5
 
     img_quanlicapnuoc As image:
         Image: ='Sticky-top-menu'
+        OnSelect: =Navigate(quanlicapnuoc,ScreenTransition.Fade)
         Width: =147
         X: =327
         ZIndex: =6
 
     img_xacnhancuoicung As image:
         Image: ='Sticky-top-menu'
+        OnSelect: =Navigate(xacnhancuoicung,ScreenTransition.Fade)
         Width: =147
         X: =433
         ZIndex: =7
+
+    img_dotxuat As image:
+        Image: ='Sticky-top-menu_1'
+        OnSelect: =Navigate(dotxuat,ScreenTransition.Fade)
+        Width: =147
+        ZIndex: =8
 
