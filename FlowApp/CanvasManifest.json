@@ -116,7 +116,7 @@
     "Id": "fe1ddc88-0049-41c5-a069-610864bd0ad9",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": "",
+    "ManualOfflineProfileId": null,
     "Name": "FlowApp",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
@@ -131,7 +131,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "vi-VN"
   },
   "ScreenOrder": [
     "dotxuat",
