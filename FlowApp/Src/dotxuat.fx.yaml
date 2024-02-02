@@ -6,14 +6,28 @@ dotxuat As screen:
         Y: =20
 
     Container1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =208
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =266
         X: =74
         Y: =132
         ZIndex: =2
 
     Container1_1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =208
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =266
         X: =375
         Y: =132
@@ -22,6 +36,12 @@ dotxuat As screen:
     Container2 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =609
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =595
         X: =702
         Y: =132
@@ -128,6 +148,12 @@ dotxuat As screen:
     Container3 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =268
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =567
         X: =74
         Y: =383
@@ -156,6 +182,12 @@ dotxuat As screen:
     Container4 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =72
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =567
         X: =74
         Y: =669
