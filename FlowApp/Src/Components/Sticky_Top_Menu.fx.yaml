@@ -2,48 +2,49 @@ Sticky_Top_Menu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =100
     Selected: ="Văn bản"
-    Width: =650
+    Width: =580
     X: =0
     Y: =0
     ZIndex: =1
 
-    Image1_dotxuat As image:
-        Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(Image1_dotxuat,ScreenTransition.Fade)
-        Width: =168
-        ZIndex: =1
-
-    Image1_1 As image:
-        Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(Image1_1,ScreenTransition.Fade)
-        Width: =168
-        X: =113
-        ZIndex: =2
-
-    Image1_2 As image:
-        Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(Image1_2,ScreenTransition.Fade)
-        Width: =168
-        X: =229
-        ZIndex: =3
-
-    Image1_3 As image:
-        Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(Image1_3,ScreenTransition.Fade)
-        Width: =168
-        X: =341
-        ZIndex: =4
-
-    Image1_4 As image:
-        Image: ='Sticky-top-menu'
-        OnSelect: =Navigate(Image1_4,ScreenTransition.Fade)
-        Width: =168
-        X: =453
-        ZIndex: =5
-
     Selected As rectangle:
         Fill: =RGBA(0, 0, 0, 0)
-        Width: =145
-        X: =Switch(Sticky_Top_Menu.Selected, "dotxuat", Image1_dotxuat.X, "xacnhan", Image1_1.X, "xulinguyenlieu", Image1_2.X, "quanlicapnuoc", Image1_3.X, "xacnhancuoicung", Image1_4.X)
+        Width: =130
+        X: =Switch(Sticky_Top_Menu.Selected, "dotxuat", img_dotxuat.X, "xacnhan", img_xacnhan.X, "xulinguyenlieu", img_xulinguyenlieu.X, "quanlicapnuoc", img_quanlicapnuoc.X, "xacnhancuoicung", img_xacnhancuoicung.X)
+        ZIndex: =1
+
+    Rectangle5 As rectangle:
+        Fill: =RGBA(0, 0, 0, 0)
+        Width: =580
+        Y: =40
+        ZIndex: =2
+
+    img_dotxuat As image:
+        Image: ='Sticky-top-menu'
+        Width: =147
+        ZIndex: =3
+
+    img_xacnhan As image:
+        Image: ='Sticky-top-menu'
+        Width: =147
+        X: =108
+        ZIndex: =4
+
+    img_xulinguyenlieu As image:
+        Image: ='Sticky-top-menu'
+        Width: =147
+        X: =220
+        ZIndex: =5
+
+    img_quanlicapnuoc As image:
+        Image: ='Sticky-top-menu'
+        Width: =147
+        X: =327
         ZIndex: =6
+
+    img_xacnhancuoicung As image:
+        Image: ='Sticky-top-menu'
+        Width: =147
+        X: =433
+        ZIndex: =7
 

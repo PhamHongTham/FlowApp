@@ -14,47 +14,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_4.AccessibleLabel"
-                }
-              ],
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_4"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_4.TabIndex"
+                  "fullyQualifiedName": "Sticky_Top_Menu.img_dotxuat.TabIndex"
                 }
               ],
               "properties": {
                 "member": "TabIndex",
                 "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_4"
+                "type": "Sticky_Top_Menu.img_dotxuat"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_4.TabIndex",
+                  "fullyQualifiedName": "Sticky_Top_Menu.img_dotxuat.TabIndex",
                   "relativeAddress": 0
                 }
               }
@@ -67,24 +37,24 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Selected.AccessibleLabel"
+                  "fullyQualifiedName": "Sticky_Top_Menu.img_dotxuat.AccessibleLabel"
                 }
               ],
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Selected"
+                "type": "Sticky_Top_Menu.img_dotxuat"
               },
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Selected.AccessibleLabel",
+                  "fullyQualifiedName": "Sticky_Top_Menu.img_dotxuat.AccessibleLabel",
                   "relativeAddress": 0
                 }
               }
@@ -97,276 +67,6 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Selected.TabIndex"
-                }
-              ],
-              "properties": {
-                "member": "TabIndex",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Selected"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Selected.TabIndex",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_3.AccessibleLabel"
-                }
-              ],
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_3"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_3.TabIndex"
-                }
-              ],
-              "properties": {
-                "member": "TabIndex",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_3"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_2.AccessibleLabel"
-                }
-              ],
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_2"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_2.TabIndex"
-                }
-              ],
-              "properties": {
-                "member": "TabIndex",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_2"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_1.AccessibleLabel"
-                }
-              ],
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_1"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_1.TabIndex"
-                }
-              ],
-              "properties": {
-                "member": "TabIndex",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_1"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_dotxuat.AccessibleLabel"
-                }
-              ],
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_dotxuat"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_dotxuat.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_dotxuat.TabIndex"
-                }
-              ],
-              "properties": {
-                "member": "TabIndex",
-                "module": "Sticky_Top_Menu",
-                "type": "Sticky_Top_Menu.Image1_dotxuat"
-              },
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Sticky_Top_Menu.Image1_dotxuat.TabIndex",
-                  "relativeAddress": 0
-                }
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
         }
       ],
@@ -375,23 +75,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "acc-AccessibleLabelNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing accessible label"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit the accessible label property to describe the item."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
-              }
-            },
             {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {
@@ -407,6 +90,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             }
           ],
