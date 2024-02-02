@@ -1,0 +1,9 @@
+xulinguyenlieu As screen:
+    Fill: =RGBA(253, 222, 207, 1)
+
+    Sticky_Top_Menu_3 As Sticky_Top_Menu:
+        Selected: ="xulinguyenlieu"
+        Width: =Parent.Width*.47
+        X: =Parent.Width/2 - Self.Width/2
+        Y: =20
+
