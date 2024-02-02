@@ -13,12 +13,6 @@ Sticky_Top_Menu As CanvasComponent:
         X: =Switch(Sticky_Top_Menu.Selected, "dotxuat", img_dotxuat.X, "xacnhan", img_xacnhan.X, "xulinguyenlieu", img_xulinguyenlieu.X, "quanlicapnuoc", img_quanlicapnuoc.X, "xacnhancuoicung", img_xacnhancuoicung.X)
         ZIndex: =1
 
-    Rectangle5 As rectangle:
-        Fill: =RGBA(0, 0, 0, 0)
-        Width: =580
-        Y: =40
-        ZIndex: =2
-
     img_xacnhan As image:
         Image: ='Sticky-top-menu'
         OnSelect: =Navigate(xacnhan,ScreenTransition.Fade)
@@ -48,6 +42,7 @@ Sticky_Top_Menu As CanvasComponent:
         ZIndex: =7
 
     img_dotxuat As image:
+        DisabledFill: =RGBA(166, 166, 166, 1)
         Image: ='Sticky-top-menu_1'
         OnSelect: =Navigate(dotxuat,ScreenTransition.Fade)
         Width: =147
