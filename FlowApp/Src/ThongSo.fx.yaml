@@ -64,7 +64,7 @@
             FontWeight: =FontWeight.Bold
             Height: =100
             Size: =25
-            Text: ="Kết quả xử lý nguyên liệu"
+            Text: ="Thay đổi Param"
             Width: =Parent.Width
             ZIndex: =2
 
