@@ -186,6 +186,7 @@ KHdieutri_TOP As screen:
             Button6_2 As button:
                 Fill: =RGBA(51, 51, 51, 1)
                 Height: =Parent.Height/5
+                OnSelect: =Navigate(xulinguyenlieu,ScreenTransition.Fade)
                 Size: =18
                 Text: ="Kế hoạch đầu ra"
                 Width: =Parent.Width

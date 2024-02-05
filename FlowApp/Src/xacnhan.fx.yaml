@@ -278,6 +278,7 @@ xacnhan As screen:
     Button2_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =62
+        OnSelect: =Navigate(KHdieutri_TOP,ScreenTransition.Fade)
         Text: ="Đầu ra"
         X: =1174
         Y: =693
