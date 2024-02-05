@@ -163,6 +163,7 @@ quanlicapnuoc As screen:
 
         Button1 As button:
             Height: =55
+            OnSelect: =Navigate(xacnhancuoicung, ScreenTransition.Fade)
             Text: ="Nút"
             X: =238
             Y: =392
@@ -274,6 +275,7 @@ quanlicapnuoc As screen:
 
         Button1_1 As button:
             Height: =55
+            OnSelect: =Navigate(xacnhancuoicung, ScreenTransition.Fade)
             Text: ="Nút"
             X: =238
             Y: =392
@@ -383,6 +385,7 @@ quanlicapnuoc As screen:
 
         Button1_2 As button:
             Height: =55
+            OnSelect: =Navigate(xacnhancuoicung, ScreenTransition.Fade)
             Text: ="Nút"
             X: =238
             Y: =392

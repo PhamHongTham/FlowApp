@@ -201,6 +201,7 @@ dotxuat As screen:
         Button5_1 As button:
             Fill: =RGBA(128, 128, 128, 1)
             Height: =Parent.Height
+            OnSelect: =Navigate(xacnhan, ScreenTransition.Fade)
             Text: ="Xác nhận"
             Width: =165
             X: =218
@@ -209,6 +210,7 @@ dotxuat As screen:
         Button5_2 As button:
             Fill: =RGBA(128, 128, 128, 1)
             Height: =Parent.Height
+            OnSelect: =Navigate(xulinguyenlieu, ScreenTransition.Fade)
             Text: ="Đầu ra"
             Width: =165
             X: =437

@@ -82,6 +82,7 @@ xulinguyenlieu As screen:
     Button4_1 As button:
         Fill: =RGBA(128, 128, 128, 1)
         Height: =58
+        OnSelect: =Navigate(quanlicapnuoc,ScreenTransition.Fade)
         Text: ="Xác nhận"
         Width: =126
         X: =1203
