@@ -100,7 +100,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -140,6 +140,11 @@
     "quanlicapnuoc",
     "xacnhancuoicung",
     "TOP",
+    "DangNhap",
+    "XemDuLieu",
+    "NhapThongTinTOP",
+    "TOPNhapThongTinChiTiet",
+    "ThongSo",
     "KHdieutri_TOP"
   ]
 }

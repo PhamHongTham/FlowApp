@@ -1,0 +1,82 @@
+"XemDuLieu As screen.'printableLayout_A4Portrait_ver1.0'":
+    Height: =1123
+    Width: =794
+
+    Container5_4 As groupContainer.manualLayoutContainer:
+        Height: =Parent.Height
+        Width: =Parent.Width
+        ZIndex: =1
+
+        Label23 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =100
+            Size: =25
+            Text: ="Xem dữ liệu "
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Icon3_1 As icon.Weather:
+            Color: =RGBA(0, 0, 0, 1)
+            Height: =45
+            Icon: =Icon.ChevronLeft
+            OnSelect: =Navigate(TOP,ScreenTransition.Fade)
+            Width: =45
+            X: =20
+            Y: =25
+            ZIndex: =2
+
+        Rectangle10 As rectangle:
+            Fill: =RGBA(0, 0, 0, 1)
+            Height: =10
+            Width: =Parent.Width
+            Y: =100
+            ZIndex: =3
+
+        Container14 As groupContainer.manualLayoutContainer:
+            Height: =100
+            Width: =Parent.Width
+            Y: =144
+            ZIndex: =4
+
+            DatePicker1 As datepicker:
+                Height: =94
+                Size: =20
+                Width: =393
+                ZIndex: =1
+
+            Dropdown4 As dropdown:
+                Height: =94
+                Items: =["Kết quả xử lý nguyên liệu","Kết quả thực tế chuyển vào","Kết quả thực tế cấp nước"]
+                Size: =20
+                Width: =401
+                X: =393
+                ZIndex: =2
+
+        Label24 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Size: =20
+            Text: ="Trạng thái nhập thông tin "
+            Width: =Parent.Width
+            Y: =456
+            ZIndex: =5
+
+        Checkbox1 As checkbox:
+            CheckboxSize: =150
+            Height: =208
+            Text: ="Tùy chọn"
+            Width: =144
+            X: =218
+            Y: =477
+            ZIndex: =6
+
+        Checkbox1_1 As checkbox:
+            CheckboxSize: =150
+            Height: =208
+            Text: ="Tùy chọn"
+            Width: =144
+            X: =397
+            Y: =477
+            ZIndex: =7
+
