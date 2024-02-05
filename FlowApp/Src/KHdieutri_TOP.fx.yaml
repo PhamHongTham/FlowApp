@@ -1,0 +1,194 @@
+KHdieutri_TOP As screen:
+
+    Container4 As groupContainer.manualLayoutContainer:
+        Height: =Parent.Height
+        Width: =Parent.Width
+        ZIndex: =1
+
+        Container8 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =Parent.Height/8
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =Parent.Width
+            ZIndex: =1
+
+            Rectangle5 As rectangle:
+                Fill: =RGBA(0, 13, 75, 1)
+                Height: =96
+                Width: =Parent.Width
+                ZIndex: =1
+
+            Label16 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =Parent.Height
+                Size: =18
+                Text: ="Hệ thống quy hoạch đầu vào TOP"
+                Width: =Parent.Width
+                ZIndex: =2
+
+        Container11 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =557
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Width: =571
+            X: =56
+            Y: =165
+            ZIndex: =2
+
+            Container12 As groupContainer.manualLayoutContainer:
+                Height: =Parent.Height/7
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Width: =Parent.Width
+                ZIndex: =1
+
+                Rectangle7 As rectangle:
+                    Fill: =RGBA(9, 33, 98, 1)
+                    Height: =Parent.Height
+                    Width: =Parent.Width
+                    ZIndex: =1
+
+                Label18 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =Parent.Height
+                    Size: =15
+                    Text: ="20/11 Xử lí thông tin kế hoạch"
+                    Width: =Parent.Width
+                    Y: |
+                        =0
+                    ZIndex: =2
+
+            "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+                DelayItemLoading: =true
+                Height: =465
+                Items: =CustomGallerySample
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0
+                TemplateSize: =104
+                Width: =Parent.Width
+                Y: =85
+                ZIndex: =2
+
+                Image1 As image:
+                    Height: =72
+                    OnSelect: =Select(Parent)
+                    RadiusBottomLeft: =8
+                    RadiusBottomRight: =8
+                    RadiusTopLeft: =8
+                    RadiusTopRight: =8
+                    Width: =72
+                    X: =16
+                    Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                    ZIndex: =1
+
+                Title1 As label:
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =ThisItem.SampleHeading
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 173
+                    X: =103
+                    Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle1.Size * 1.8)) / 2
+                    ZIndex: =2
+
+                Subtitle1 As label:
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =ThisItem.SampleText
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Title1.Width
+                    X: =Title1.X
+                    Y: =Title1.Y + Title1.Height
+                    ZIndex: =3
+
+                NextArrow1 As icon.ChevronRight:
+                    AccessibleLabel: =Self.Tooltip
+                    Color: =RGBA(166, 166, 166, 1)
+                    Height: =50
+                    Icon: =Icon.ChevronRight
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =16
+                    PaddingLeft: =16
+                    PaddingRight: =16
+                    PaddingTop: =16
+                    Tooltip: ="Xem chi tiết mục"
+                    Width: =50
+                    X: =Parent.TemplateWidth - Self.Width - 12
+                    Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                    ZIndex: =4
+
+                Separator1 As rectangle:
+                    Height: =8
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =Parent.TemplateHeight - Self.Height
+                    ZIndex: =5
+
+                Rectangle8 As rectangle:
+                    Height: =Parent.TemplateHeight - Separator1.Height
+                    OnSelect: =Select(Parent)
+                    Visible: =ThisItem.IsSelected
+                    Width: =4
+                    ZIndex: =6
+
+        Container13 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =470
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            X: =790
+            Y: =252
+            ZIndex: =3
+
+            Button6 As button:
+                Fill: =RGBA(116, 116, 116, 1)
+                Height: =Parent.Height/5
+                OnSelect: =Navigate(dotxuat, ScreenTransition.Fade)
+                Size: =18
+                Text: ="Tạo mới"
+                Width: =Parent.Width
+                ZIndex: =1
+
+            Button6_1 As button:
+                Fill: =RGBA(187, 221, 140, 1)
+                Height: =Parent.Height/5
+                Size: =18
+                Text: ="Sửa đổi kế hoạch"
+                Width: =Parent.Width
+                Y: =152
+                ZIndex: =2
+
+            Button6_2 As button:
+                Fill: =RGBA(51, 51, 51, 1)
+                Height: =Parent.Height/5
+                Size: =18
+                Text: ="Kế hoạch đầu ra"
+                Width: =Parent.Width
+                Y: =300
+                ZIndex: =3
+
